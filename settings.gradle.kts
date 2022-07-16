@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "eWalle-android"
-include ':app'
+include(":app")
