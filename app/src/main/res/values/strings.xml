@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">eWalle-android</string>
+    <string name="app_name">eWalle</string>
+
+    <string name="login_description_1">Open An Account For Digital E-Wallet Solutions.Instant Payouts.</string>
+    <string name="login_description_2">Join For Free.</string>
+    <string name="button_sign">Sign in</string>
+    <string name="button_registration">Create an account</string>
+
+    <string name="home_overview">Account Overview</string>
+    <string name="home_balance">Current balance</string>
+    <string name="home_button_add_balance">Button add balance</string>
+    <string name="home_contacts">Send Money</string>
+    <string name="home_services">Services</string>
 </resources>

@@ -1,16 +1,30 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.EWalleandroid" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.eWalle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">@color/yellow_600</item>
+        <item name="colorPrimaryVariant">@color/yellow_800</item>
+        <item name="colorOnPrimary">@color/blue_600</item>
+
+        <item name="android:colorBackground">@color/blue_700</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/yellow_600</item>
+        <item name="colorSecondaryVariant">@color/yellow_600</item>
+        <item name="colorOnSecondary">@color/blue_500</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/yellow_600</item>
         <!-- Customize your theme here. -->
+        <item name="fontFamily">@font/avenir_next</item>
+
+        <item name="textColorHeader">@color/white</item>
+        <item name="textColorOnBackgroundLogin">@color/blue_300</item>
+        <item name="textColorOnBackgroundHome">@color/blue_300</item>
+        <item name="cartColorOnBackground">@color/blue_500</item>
+        <item name="colorWithBackground">@color/blue_700</item>
+
+        <item name="colorContactStroke">@color/grey_700</item>
+        <item name="colorMenuBackground">@color/blue_500</item>
+        <item name="iconColorOnBackgroundMenu">@color/white</item>
+        <item name="textColorOnBackgroundMenu">@color/white</item>
     </style>
 </resources>

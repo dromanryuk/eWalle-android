@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textColorHeader" format="reference"/>
+
+    <attr name="textColorOnBackgroundLogin" format="reference"/>
+    <attr name="textColorOnBackgroundHome" format="reference"/>
+
+    <attr name="cartColorOnBackground" format="reference"/>
+    <attr name="colorWithBackground" format="reference"/>
+    <attr name="colorContactStroke" format="reference"/>
+
+    <attr name="colorMenuBackground" format="reference"/>
+    <attr name="iconColorOnBackgroundMenu" format="reference"/>
+    <attr name="textColorOnBackgroundMenu" format="reference"/>
+</resources>

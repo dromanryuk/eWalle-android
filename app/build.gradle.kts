@@ -45,12 +45,24 @@ dependencies {
     androidTestImplementation ("androidx.test.ext:junit:1.1.3")
     androidTestImplementation ("androidx.test.espresso:espresso-core:3.4.0")
 
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1")
+
     val koinVersion = "3.1.6"
     implementation("io.insert-koin:koin-core:$koinVersion")
     implementation("io.insert-koin:koin-android:$koinVersion")
+
+    val lifecycleVersion = "2.4.1"
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion")
+
+    val glideVersion = "4.13.0"
+    implementation("com.github.bumptech.glide:glide:$glideVersion")
+    annotationProcessor ("com.github.bumptech.glide:compiler:$glideVersion")
 
     val navVersion = "2.4.2"
     implementation("androidx.navigation:navigation-fragment-ktx:$navVersion")
     implementation("androidx.navigation:navigation-ui-ktx:$navVersion")
 
+    val datetimeVersion = "0.4.0"
+    implementation("org.jetbrains.kotlinx:kotlinx-datetime:$datetimeVersion")
 }
