@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contactCard"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardElevation="0dp"
+    android:layout_margin="5dp">
+
+    <FrameLayout
+        android:id="@+id/contactFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorWithBackground">
+
+        <LinearLayout
+            android:id="@+id/contactCardItem"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:background="@drawable/item_contact_background"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ru.dromanryuk.ewalle.presentation.home.components.CustomContactImage
+                android:id="@+id/contactImageView"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/contactNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:textColor="?attr/textColorOnBackgroundHome"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_margin="5dp">
+
+            <ImageView
+                android:id="@+id/addContactButton"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:background="@drawable/icon_ripple"
+                android:scaleType="center"
+                android:src="@drawable/ic_add"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
+
+
